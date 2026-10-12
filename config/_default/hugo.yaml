@@ -45,6 +45,10 @@ disableAliases: true
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
+outputFormats:
+  backlinks:
+    mediaType: application/json
+    baseName: backlinks
 imaging:
   resampleFilter: lanczos
   quality: 90
@@ -61,5 +65,8 @@ markup:
     lineNos: false
 security:
   _merge: deep
+  exec:
+    allow: ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^npm$', '^npx$', '^postcss$', '^tailwindcss$']
 sitemap:
   _merge: deep
+ignoreLogs: ['pub-legacy-/publications/peralta2026lleida/']
