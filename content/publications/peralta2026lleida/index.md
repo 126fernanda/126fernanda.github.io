@@ -3,5 +3,9 @@ title: "Modelling Au-Based Asymmetric Catalysis in Artificial Metalloenzymes: Me
 date: 2026-06-01
 authors: ["admin"]
 publication_types: ["paper-conference"]
-publication: "14ª Trobada de Joves Investigadors dels Països Catalans. Oral presentation"
+publication:
+  name: "14ª Trobada de Joves Investigadors dels Països Catalans (Lleida, Spain)"
+  summary: "Oral presentation"
+featured: true
 ---
+Oral presentation delivered at the *14th Trobada de Joves Investigadors dels Països Catalans*, Lleida, Spain.

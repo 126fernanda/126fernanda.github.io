@@ -2,115 +2,151 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: María Fernanda Peralta Morales
+  given: María Fernanda
+  family: Peralta Morales
+  alternate: ''
+  pronunciation: ''
+  pronouns: she/her
 postnominals:
-  - PhD
-  - MIEEE
+  - MSc
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🔬"
+role: PhD Candidate in Computational Chemistry
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Chemist and PhD candidate in Computational Chemistry at the Universitat Autònoma de Barcelona (InSiliChem group).
+  My doctoral research focuses on the rational design of artificial metalloenzymes and de novo metallopeptides for
+  biocatalysis and drug design through molecular dynamics, structure prediction, and mechanistic modelling.
+  I develop open-source Python tools to automate and deepen simulation analysis, integrating machine learning and AI models.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Universitat Autònoma de Barcelona
+    url: https://www.uab.cat
+  - name: InSiliChem Group
+    url: https://github.com/insilichem
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+    url: mailto:MariaFernanda.Peralta@uab.cat
+    label: Email
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/insilichem
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://linkedin.com/in/maria-fernanda-peralta-morales-55b731221
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0006-9723-3135
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Rational Enzyme & Metalloenzyme Design
+  - Molecular Dynamics & Trajectory Analysis
+  - De Novo Metallopeptides & Drug Design
+  - Scientific Python Tool Development & Machine Learning
+  - Mechanistic Quantum Chemical Modelling (DFT)
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD in Chemistry (Official Doctoral Programme)
+    institution: Universitat Autònoma de Barcelona (UAB)
+    start: 2025-09-01
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      **Provisional thesis title:** Computational Strategies for the Rational Design of Artificial Metalloenzymes and De Novo Metallopeptides.
+      **Supervisors:** Dr. Jean-Didier Maréchal & Dr. Giuseppe Sciortino (InSiliChem group).
+  - degree: Master's Degree in Bioinformatics (Structure and Function of Proteins & Drug Design)
+    institution: Universitat Autònoma de Barcelona (UAB)
+    start: 2024-09-01
+    end: 2025-07-31
+    summary: |
+      **Master's thesis:** Unraveling the Mechanism of Gold-Catalyzed Alkenynone Reaction in a Protein Environment (Thesis: 9.5/10 | Overall: 8.40/10).
+  - degree: Bachelor's Degree in Chemistry
+    institution: Universidad Nacional de Colombia
+    start: 2017-01-01
+    end: 2022-12-31
+    summary: |
+      **Degree thesis:** Evaluation of in vitro neuroprotection and agonist activity of natural compounds from *Zanthoxylum caribaeum* (GPA: 4.2/5.0).
+  - degree: Diploma Course in HPLC and LC-MS
+    institution: Universidad Nacional de Colombia
+    start: 2023-01-01
+    end: 2023-12-31
+    summary: |
+      High Performance Liquid Chromatography and Liquid Chromatography-Mass Spectrometry.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: PhD Researcher
+    org: InSiliChem Group - Universitat Autònoma de Barcelona
+    start: 2025-09-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      - Rational design of artificial metalloenzymes for asymmetric biocatalysis and mechanistic modelling of Au-catalysed alkenynone cyclisation.
+      - Design and characterisation of de novo metallopeptides for biocatalysis and drug design.
+      - Molecular dynamics simulations (AMBER) and structure prediction (AlphaFold).
+      - Development of Python tools and automated workflows for trajectory analysis on GNU/Linux.
+  - role: Research Assistant
+    org: Transcriptomics Group - Universidad Nacional de Colombia
+    start: 2022-01-01
+    end: 2024-06-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      - Computational research in protein design to enhance catalytic activity.
+      - Analysis of genomic data (microarray, RNA-seq, single-cell RNA-seq) and construction of gene networks.
+  - role: HPLC Stability and Validation Analyst
+    org: AQM SAS (Pharmaceutical Sector)
+    start: 2022-01-01
+    end: 2023-06-30
+    summary: |
+      - Stability studies and analytical method validation/verification by HPLC for pharmaceutical products.
+      - Data analysis and problem-solving within multidisciplinary quality teams.
+  - role: Undergraduate Researcher
+    org: Alzheimer Group - Universidad Nacional de Colombia
+    start: 2021-01-01
+    end: 2022-12-31
+    summary: |
+      - Evaluation of neuroprotective and agonist activity using cell viability (MTT) and luciferase reporter (LXRE-LUC) assays.
+  - role: Organic and Physical Chemistry Laboratory Assistant
+    org: Universidad Nacional de Colombia
+    start: 2021-01-01
+    end: 2022-12-31
+    summary: |
+      - Supported undergraduate laboratory practical sessions in organic and physical chemistry.
 
 skills:
-  - name: Technical Skills
+  - name: Computational Chemistry & Modelling
     items:
-      - label: Python
+      - label: Molecular Dynamics (AMBER, MCPB.py)
         level: 5
-      - label: Machine Learning
+      - label: Trajectory Analysis (MDAnalysis, VMD, Chimera, PyMOL)
         level: 5
-      - label: Cloud Computing
+      - label: Structure Prediction (AlphaFold, Modeller)
+        level: 5
+      - label: DFT & Quantum Modelling (Gaussian 16)
         level: 4
-  - name: Research & Communication
+      - label: Molecular Docking (GOLD, AutoDock)
+        level: 4
+  - name: Programming & Data Analysis
     items:
-      - label: Academic Writing
+      - label: Python (NumPy, SciPy, NetworkX, Biopython)
         level: 5
-      - label: Conference Presentations
+      - label: Linux / Bash / HPC (SLURM)
+        level: 5
+      - label: Git & GitHub
         level: 4
-      - label: Grant Proposals
+      - label: R / Bioconductor
+        level: 4
+  - name: Experimental & Analytical Chemistry
+    items:
+      - label: Chromatography (HPLC, LC-MS)
+        level: 5
+      - label: Spectroscopic Methods (UV-Vis, IR, NMR)
+        level: 4
+      - label: Biochemistry (Cell Culture, MTT, Reporter Assays)
         level: 4
 
 languages:
-  - name: English
-    level: 5
-    label: Native
   - name: Spanish
+    level: 5
+    label: "Native"
+  - name: English
     level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+    label: "B2 (TOEFL iBT: 92)"
+  - name: Catalan
+    level: 2
+    label: "Basic (A2)"
+  - name: German
+    level: 2
+    label: "Basic (A2)"
