@@ -30,6 +30,9 @@ social:
     link: mailto:MariaFernanda.Peralta@uab.cat
   - icon: github
     icon_pack: fab
+    link: https://github.com/126fernanda
+  - icon: github-alt
+    icon_pack: fab
     link: https://github.com/insilichem
   - icon: linkedin
     icon_pack: fab

@@ -30,7 +30,11 @@ links:
     url: mailto:MariaFernanda.Peralta@uab.cat
     label: Email
   - icon: brands/github
+    url: https://github.com/126fernanda
+    label: Personal GitHub
+  - icon: brands/github
     url: https://github.com/insilichem
+    label: InSiliChem Lab GitHub
   - icon: brands/linkedin
     url: https://linkedin.com/in/maria-fernanda-peralta-morales-55b731221
   - icon: academicons/orcid

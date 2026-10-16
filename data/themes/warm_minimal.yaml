@@ -1,0 +1,41 @@
+# Elegant Warm Minimalist Theme Pack (Light & Dark Mode)
+hugoblox:
+  meta:
+    format: "hugoblox-theme@1"
+    name: "Warm Minimal"
+    vendor: "custom"
+    version: "1.0.0"
+    license: "MIT"
+    description: "Warm alabaster light mode, deep espresso dark mode with high WCAG contrast"
+
+  type: "dual"
+
+  light:
+    colors:
+      primary: "#9a3412"   # Warm Terracotta / Rust (WCAG AA compliant on cream)
+      secondary: "#b45309" # Warm Amber / Ochre
+      neutral: "#57534e"   # Warm Stone
+    surfaces:
+      background: "#faf8f5" # Soft Warm Alabaster
+      foreground: "#1c1917" # Deep Warm Charcoal (Contrast > 14:1)
+      header:
+        background: "#faf8f5"
+        foreground: "#1c1917"
+      footer:
+        background: "#f3efe6"
+        foreground: "#44403c"
+
+  dark:
+    colors:
+      primary: "#fb923c"   # Warm Luminous Terracotta / Peach (High contrast on dark)
+      secondary: "#fbbf24" # Warm Gold
+      neutral: "#a8a29e"   # Warm Light Stone
+    surfaces:
+      background: "#1c1917" # Deep Warm Espresso/Stone-900
+      foreground: "#f5f5f4" # Warm Off-White (Contrast > 14:1)
+      header:
+        background: "#1c1917"
+        foreground: "#f5f5f4"
+      footer:
+        background: "#141210"
+        foreground: "#a8a29e"

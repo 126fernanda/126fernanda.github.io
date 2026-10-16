@@ -2,7 +2,7 @@
 title: "Computational Approaches to Artificial Metalloenzyme Design"
 summary: "An introduction to how molecular dynamics and quantum chemical modelling help engineer artificial enzymes for asymmetric biocatalysis."
 date: 2026-09-01
-authors: ["admin"]
+authors: ["me"]
 tags:
   - Metalloenzymes
   - Molecular Dynamics
