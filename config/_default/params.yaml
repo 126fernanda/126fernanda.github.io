@@ -34,25 +34,25 @@ hugoblox:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "default"
+    pack: "coffee"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
+      primary: "#9a3412" # Warm Terracotta / Rust
+      secondary: "#d97706" # Warm Amber / Gold
+      neutral: "#57534e" # Warm Stone
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
     # Optional: Semantic surface color overrides
     surfaces:
-      background: ""
-      foreground: ""
+      background: "#faf8f5" # Soft Warm Alabaster
+      foreground: "#292524" # Deep Warm Charcoal
       header:
-        background: ""
-        foreground: ""
+        background: "#faf8f5"
+        foreground: "#292524"
       footer:
-        background: ""
-        foreground: ""
+        background: "#f5f2eb"
+        foreground: "#57534e"
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
@@ -89,8 +89,8 @@ hugoblox:
     # Feature toggles
     search: true
     theme_toggle: true
-    theme_picker: true
-    language_switcher: true
+    theme_picker: false
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false

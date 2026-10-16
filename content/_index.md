@@ -14,47 +14,42 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: 'Profile'
+        education: 'Academic Formation'
+        interests: 'Core Research Areas'
     design:
       background:
         gradient_mesh:
-          enable: true
+          enable: false
       name:
         size: md
       avatar:
         size: medium
         shape: circle
 
-  - block: markdown
+  - block: resume-skills
     content:
-      title: '🔬 Research Focus'
-      subtitle: ''
-      text: |-
-        My research focuses on the rational design of **artificial metalloenzymes** and **de novo metallopeptides** for biocatalysis and drug design through molecular dynamics, structure prediction, and mechanistic quantum modelling.
-
-        I also develop open-source scientific Python tools to automate and deepen the analysis of simulations, integrating machine learning models into computational chemistry pipelines.
+      title: Core Competencies & Technical Expertise
+      username: me
     design:
-      columns: '1'
+      show_skill_percentage: false
 
   - block: content-collection
     id: conferences
     content:
       title: Conferences & Presentations
-      text: 'Selected conference talks and poster contributions'
+      text: 'Selected oral communications and poster contributions at international and national scientific meetings.'
       filters:
         folders:
           - publications
     design:
-      view: article-grid
-      columns: 2
+      view: citation
 
   - block: content-collection
     id: projects
     content:
-      title: Featured Projects & Software
-      text: 'Open-source scientific tools and computational research projects'
+      title: Featured Projects & Research Software
+      text: 'Open-source Python packages, UCSF Chimera scripts, and computational research workflows.'
       filters:
         folders:
           - projects
