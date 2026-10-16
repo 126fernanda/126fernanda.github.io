@@ -79,10 +79,10 @@ jobs:
 
     - name: Install dependencies
       run: |
-        # Install Tailwind CLI if package.json exists
+        # Install Tailwind CSS and compiler dependencies
         if [ -f "package.json" ]; then
-          echo "Installing Tailwind dependencies..."
-          pnpm install --no-frozen-lockfile || npm install
+          echo "Installing dependencies via npm..."
+          npm install
         fi
 
     - name: Verify Tailwind CSS dependency
