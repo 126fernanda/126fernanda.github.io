@@ -5,7 +5,6 @@ organizations:
   - name: Universitat Autònoma de Barcelona
     url: https://www.uab.cat
   - name: InSiliChem Group
-    url: https://github.com/insilichem
 bio: Chemist and PhD candidate in Computational Chemistry at the Universitat Autònoma de Barcelona (InSiliChem group).
 interests:
   - Rational enzyme & metalloenzyme design
@@ -31,9 +30,6 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/126fernanda
-  - icon: github-alt
-    icon_pack: fab
-    link: https://github.com/insilichem
   - icon: linkedin
     icon_pack: fab
     link: https://linkedin.com/in/maria-fernanda-peralta-morales-55b731221

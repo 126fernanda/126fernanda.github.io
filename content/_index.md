@@ -18,13 +18,15 @@ sections:
         education: 'Academic Formation'
         interests: 'Core Research Areas'
     design:
+      spacing:
+        padding: ["1.5rem", "0", "3rem", "0"]
       background:
         gradient_mesh:
           enable: false
       name:
         size: md
       avatar:
-        size: medium
+        size: large
         shape: circle
 
   - block: resume-skills

@@ -23,7 +23,6 @@ affiliations:
   - name: Universitat Autònoma de Barcelona
     url: https://www.uab.cat
   - name: InSiliChem Group
-    url: https://github.com/insilichem
 
 links:
   - icon: at-symbol
@@ -31,14 +30,13 @@ links:
     label: Email
   - icon: brands/github
     url: https://github.com/126fernanda
-    label: Personal GitHub
-  - icon: brands/github
-    url: https://github.com/insilichem
-    label: InSiliChem Lab GitHub
+    label: GitHub
   - icon: brands/linkedin
     url: https://linkedin.com/in/maria-fernanda-peralta-morales-55b731221
+    label: LinkedIn
   - icon: academicons/orcid
     url: https://orcid.org/0009-0006-9723-3135
+    label: ORCID
 
 interests:
   - Rational Enzyme & Metalloenzyme Design
@@ -48,28 +46,29 @@ interests:
   - Mechanistic Quantum Chemical Modelling (DFT)
 
 education:
-  - degree: PhD in Chemistry (Official Doctoral Programme)
+  - degree: PhD in Chemistry
+    specialization: Official Doctoral Programme — Computational Chemistry
     institution: Universitat Autònoma de Barcelona (UAB)
-    start: 2025-09-01
+    year: 2025 – Present
     summary: |
       **Provisional thesis title:** Computational Strategies for the Rational Design of Artificial Metalloenzymes and De Novo Metallopeptides.
       **Supervisors:** Dr. Jean-Didier Maréchal & Dr. Giuseppe Sciortino (InSiliChem group).
-  - degree: Master's Degree in Bioinformatics (Structure and Function of Proteins & Drug Design)
+  - degree: Master's Degree in Bioinformatics
+    specialization: Structure and Function of Proteins & Drug Design
     institution: Universitat Autònoma de Barcelona (UAB)
-    start: 2024-09-01
-    end: 2025-07-31
+    year: 2024 – 2025
     summary: |
       **Master's thesis:** Unraveling the Mechanism of Gold-Catalyzed Alkenynone Reaction in a Protein Environment (Thesis: 9.5/10 | Overall: 8.40/10).
   - degree: Bachelor's Degree in Chemistry
+    specialization: Natural Products & Neuroprotection Research
     institution: Universidad Nacional de Colombia
-    start: 2017-01-01
-    end: 2022-12-31
+    year: 2017 – 2022
     summary: |
       **Degree thesis:** Evaluation of in vitro neuroprotection and agonist activity of natural compounds from *Zanthoxylum caribaeum* (GPA: 4.2/5.0).
   - degree: Diploma Course in HPLC and LC-MS
+    specialization: High Performance Liquid Chromatography & Mass Spectrometry
     institution: Universidad Nacional de Colombia
-    start: 2023-01-01
-    end: 2023-12-31
+    year: "2023"
     summary: |
       High Performance Liquid Chromatography and Liquid Chromatography-Mass Spectrometry.
 

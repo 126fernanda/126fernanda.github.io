@@ -1,0 +1,13 @@
+/* Custom CSS Overrides for Tighter Hero & Clean Editorial Typography */
+
+/* Reduce outer section top padding on the biography hero block */
+#section-resume-biography-3.hbb-section {
+  padding-top: 1.5rem !important;
+  padding-bottom: 3rem !important;
+}
+
+/* Remove redundant inner vertical padding inside the biography block */
+#section-resume-biography-3 .resume-biography {
+  padding-top: 0.5rem !important;
+  padding-bottom: 1rem !important;
+}
