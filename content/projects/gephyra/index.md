@@ -1,6 +1,6 @@
 ---
 title: "Gephyra"
-summary: "Water-bridge network analysis tool for molecular dynamics trajectories."
+summary: "Open-source Python package & GUI to discover, track, and cluster water-bridge networks in molecular dynamics trajectories."
 date: 2026-01-01
 tags:
   - Python
@@ -14,12 +14,12 @@ links:
     icon: brands/github
 ---
 
-**Gephyra** is a pip-installable Python package with a command-line interface to discover, track and statistically analyse water-mediated hydrogen-bond networks in molecular dynamics trajectories.
+**Gephyra** is a pip-installable Python package with both a command-line interface (CLI) and graphical user interface (GUI) designed to discover, track, and statistically analyze [water-bridge networks](https://github.com/insilichem/Gephyra) in molecular dynamics trajectories.
 
-### Features
-* **Probabilistic hydrogen-bond scoring:** Robust identification of water-bridge interactions.
-* **Weighted graph path search:** Powered by NetworkX.
-* **Clustering:** Fréchet-distance hierarchical clustering of hydration pathways.
-* **Visualisation:** Automatic generation of visualisation scripts for PyMOL, VMD, and UCSF Chimera.
+### Key Capabilities
+* **Probabilistic Hydrogen-Bond Scoring:** Robust identification of explicit water-bridge interactions connecting catalytic cofactors, ligands, and protein residues.
+* **Weighted Graph Path Search:** Powered by NetworkX to trace water-mediated chains from root ligand atoms across MD trajectory frames (**Panel A**).
+* **Fréchet-Distance Hierarchical Clustering:** Groups recurring 3D water pathways into ranked spatial hydration channels and representative medoid paths (**Panel B**).
+* **Automated 3D Scene Generation:** Exports ready-to-run visualization scripts (`.cxc`, `.bild`, `.pml`, `.vmd`) for UCSF ChimeraX, UCSF Chimera, PyMOL, and VMD.
 
-**Authors:** Peralta-Morales, M. F., Sciortino, G. & Maréchal, J.-D. (2026)
+**Authors:** Peralta-Morales, M. F., Sciortino, G. & Maréchal, J.-D. (2026) — [GitHub Repository (`insilichem/Gephyra`)](https://github.com/insilichem/Gephyra)

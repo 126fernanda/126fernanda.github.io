@@ -14,6 +14,6 @@ Artificial metalloenzymes (ArMs) integrate catalytically active transition metal
 In our research at the **InSiliChem** group at Universitat Autònoma de Barcelona, we combine:
 * **Molecular Dynamics (MD) Simulations:** Unraveling solvent structures, conformational dynamics, and substrate pocket access using AMBER.
 * **Density Functional Theory (DFT):** Modeling reaction energetics and transition states for gold-catalyzed reactions within protein cavities.
-* **Software Automation:** Building open-source Python packages like [Gephyra](https://github.com/insilichem/Gephyra) to analyze water-bridge networks.
+* **Software Automation:** Building open-source Python packages like [Gephyra](https://github.com/insilichem/Gephyra) to analyze [water-bridge networks](https://github.com/insilichem/Gephyra).
 
 Stay tuned for more updates and tutorials on simulation workflows!

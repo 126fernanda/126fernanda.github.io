@@ -12,6 +12,9 @@ main:
   - name: Projects
     url: projects/
     weight: 30
+  - name: Visualizations
+    url: /#visualizations
+    weight: 35
   - name: Services
     url: services/
     weight: 40
